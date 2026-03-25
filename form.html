@@ -1,0 +1,247 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Form Example</title>
+  </head>
+  <body>
+    <h2>Form Example</h2>
+    <hr />
+    <form action="#">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <label for="nik">NIK:</label>
+      <input type="number" name="nik" id="nik" />
+    </form>
+
+    <br />
+    <br />
+    <hr />
+    <form action="#">
+      <table>
+        <caption>
+          Data diri Form menggunakan table
+        </caption>
+        <thead>
+          <tr>
+            <th colspan="2"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Name</th>
+            <td><input type="text" name="name" /></td>
+          </tr>
+          <tr>
+            <th>NIK</th>
+            <td><input type="number" name="nik" /></td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+
+    <br />
+    <br />
+    <hr />
+    <form action="#">
+      <table celladding="4" cellspacing="2">
+        <thead>
+          <tr>
+            <th colspan="2"></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>Nama :</th>
+            <td>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="masukan nama disini"
+              />
+            </td>
+          </tr>
+          <tr>
+            <th>NIK :</th>
+            <td>
+              <input
+                type="number"
+                name="nik"
+                id="nik"
+                placeholder="masukan NIK disini"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>Deskripsi :</td>
+            <td>
+              <textarea
+                name="text"
+                id="deskripsi"
+                placeholder="masukan deskripsi disini"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td colspan="2">
+              <input type="submit" value="Submit" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+
+    <br /><br />
+    <hr />
+
+    <form action="#">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <label for="nik">Nik:</label>
+      <input type="number" id="nik" name="nik" />
+      <br />
+      <br />
+      <label for="deskripsi">Deskripsi:</label>
+      <textarea name="deskripsi" id="deskripsi"></textarea>
+      <br /><br />
+      <select name="jenisKelamin" id="JenisKelamin">
+        <option value="Men">Laki-laki</option>
+        <option value="Women">Perempuan</option>
+      </select>
+      <select name="Kendaraan" id="Kendaraan">
+        <optgroup label="MobilSport">
+          <option value="Ferrari">Ferrari</option>
+          <option value="Mercedes">Mercedes</option>
+        </optgroup>
+        <optgroup label="Motor">
+          <option value="Vespa">Vespa</option>
+          <option value="Beet">Beet</option>
+        </optgroup>
+      </select>
+    </form>
+
+    <br />
+    <br />
+    <hr />
+
+    <form action="#">
+      <fieldset>
+        <legend>Data Diri</legend>
+        <label for="name">Nama :</label>
+        <input type="text" name="name" id="name" />
+        <br />
+        <br />
+        <label for="email">Email :</label>
+        <input type="email" name="email" id="email" />
+        <br />
+        <br />
+        <label for="nik">Nik &nbsp; &nbsp; :</label>
+        <input type="number" name="nik" id="nik" />
+      </fieldset>
+      <br />
+      <fieldset>
+        <legend>Jenis Kelamin</legend>
+        <label for="laki-laki">
+          <input
+            type="radio"
+            name="jenisKelamin"
+            id="laki-laki"
+            value="Laki-laki"
+          />
+          Laki-laki
+        </label>
+        <label for="perempuan">
+          <input
+            type="radio"
+            name="jenisKelamin"
+            id="perempuan"
+            value="Perempuan"
+          />
+          Perempuan
+        </label>
+      </fieldset>
+    </form>
+
+    <br />
+    <br />
+    <hr />
+
+    <h4>Example Form Data Diri</h4>
+    <form action="#">
+      <fieldset>
+        <legend>Data Lengkap</legend>
+        <label for="name">Nama &nbsp; &nbsp; &nbsp; :</label>
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Masukan nama disini"
+        />
+        <br />
+        <label for="email">Email &nbsp; &nbsp; &nbsp; :</label>
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Masukan email disini"
+        />
+        <br />
+        <label for="password">Password :</label>
+        <input type="password" name="password" id="password" />
+        <br />
+        <label for="TglLahir">Tgl Lahir :</label>
+        <input type="date" name="TglLahir" id="TglLahir" />
+
+        <br />
+        <br />
+        <hr />
+        <br />
+        <label for="jenisKelamin">Jenis Kelamin :</label>
+        <input type="radio" name="jenisKelamin" id="Pria" />
+        <label for="Pria">Pria</label>
+        <input type="radio" name="jenisKelamin" id="Wanita" />
+        <label for="Wanita">Wanita</label>
+        <br />
+        <br />
+        <label for="Hobi"
+          >Hobi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :</label
+        >
+        <input type="checkbox" name="hobi" id="membaca" />
+        <label for="membaca">Membaca</label>
+        <input type="checkbox" name="hobi" id="traveling" />
+        <label for="traveling">Traveling</label>
+        <input type="checkbox" name="hobi" id="Belajar" />
+        <label for="Belajar">Belajar</label>
+        <br />
+        <br />
+        <label for="UploadFoto">Upload Foto &nbsp; &nbsp; :</label>
+        <input type="file" name="UploadFoto" id="UploadFoto" />
+        <br />
+        <br />
+        <label for="Kejuruan"
+          >Jurusan &nbsp; &nbsp; &nbsp; &nbsp &nbsp; &nbsp; :</label
+        >
+        <select>
+          <optgroup label="Teknik">
+            <option value="TI">Teknik Informatika</option>
+            <option value="TM">Teknik Mesin</option>
+          </optgroup>
+          <optgroup label="Kesehatan">
+            <option value="Kebidanan">Kebidanan</option>
+            <option value="Keperawatan">Keperawatan</option>
+          </optgroup>
+        </select>
+        <br />
+        <br />
+        <label for="deskripsi"
+          >Deskripsi &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; :</label
+        >
+        <textarea name="deskripsi" id="deskripsi"></textarea>
+
+        <br />
+        <br />
+        <button type="submit">Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
