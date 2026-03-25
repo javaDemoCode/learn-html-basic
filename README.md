@@ -1,4 +1,4 @@
-\# 🌐 Learn HTML Basic
+# 🌐 Learn HTML Basic
 
 
 
@@ -10,11 +10,11 @@
 
 
 
-\---
+---
 
 
 
-\## 📚 About This Repository
+## 📚 About This Repository
 
 
 
@@ -26,53 +26,53 @@ Here, I focus on understanding the fundamentals of HTML:
 
 
 
-\* Structure of web pages
+* Structure of web pages
 
-\* Basic tags
+* Basic tags
 
-\* Building simple layouts
-
-
-
-\---
+* Building simple layouts
 
 
 
-\## 🎯 Goals
+---
 
 
 
-\* Understand how HTML works
-
-\* Build simple web pages from scratch
-
-\* Practice writing clean and structured code
+## 🎯 Goals
 
 
 
-\---
+* Understand how HTML works
+
+* Build simple web pages from scratch
+
+* Practice writing clean and structured code
 
 
 
-\## 🧠 What I Learned
+---
 
 
 
-\* Basic HTML structure (`html`, `head`, `body`)
-
-\* Headings, paragraphs
-
-\* Links and images
-
-\* Buttons and simple elements
+## 🧠 What I Learned
 
 
 
-\---
+* Basic HTML structure (`html`, `head`, `body`)
+
+* Headings, paragraphs
+
+* Links and images
+
+* Buttons and simple elements
 
 
 
-\## 📂 Project Structure
+---
+
+
+
+## 📂 Project Structure
 
 
 
@@ -96,29 +96,29 @@ learn-html-basic/
 
 
 
-\---
+---
 
 
 
-\## 🚧 Current Progress
+## 🚧 Current Progress
 
 
 
-\* \[x] Create basic HTML page
+* [x] Create basic HTML page
 
-\* \[ ] Add images
+* [x] Add images
 
-\* \[ ] Add links
+* [x] Add links
 
-\* \[ ] Improve structure
-
-
-
-\---
+* [x] Improve structure
 
 
 
-\## 🔥 Notes
+---
+
+
+
+## 🔥 Notes
 
 
 
@@ -128,7 +128,7 @@ The goal is not perfection, but consistency and understanding.
 
 
 
-\---
+---
 
 
 
